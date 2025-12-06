@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "123459917824",
+    "firebase_url": "https://ece-uop-lab-qr-c0f71-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "ece-uop-lab-qr-c0f71",
+    "storage_bucket": "ece-uop-lab-qr-c0f71.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:123459917824:android:e28c1004daee0bb43a20e5",
+        "android_client_info": {
+          "package_name": "com.ece.uop.labqr"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "123459917824-vkobr7f6mskbva2640588u3u2gc2dv45.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ece.uop.labqr",
+            "certificate_hash": "e41e986d70031ced2a9506e9bd3f848725200750"
+          }
+        },
+        {
+          "client_id": "123459917824-ttf5npm6s9tj8pr4kim07js2b1dgamgo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBaegcziPesXnibiDL60GHIuCGr2YKmsWM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "123459917824-ttf5npm6s9tj8pr4kim07js2b1dgamgo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
