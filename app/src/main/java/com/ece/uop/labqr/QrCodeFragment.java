@@ -51,9 +51,9 @@ public class QrCodeFragment extends Fragment {
 
     private DecoratedBarcodeView barcodeView;
     private List<String> validCodes = Arrays.asList("Η101Θ1", "Η101Θ2", "Η101Θ3", "Η101Θ4", "Η101Θ5",
-                                                    "Η101Θ6", "Η101Θ7", "Η101Θ8", "Η101Θ9", "Η101Θ10",
-                                                    "Η101Θ11", "Η101Θ12", "Η101Θ13", "Η101Θ14", "Η101Θ15",
-                                                    "Η101Θ16", "Η101Θ17", "Η101Θ18", "Η101Θ19", "Η101Θ20");
+            "Η101Θ6", "Η101Θ7", "Η101Θ8", "Η101Θ9", "Η101Θ10",
+            "Η101Θ11", "Η101Θ12", "Η101Θ13", "Η101Θ14", "Η101Θ15",
+            "Η101Θ16", "Η101Θ17", "Η101Θ18", "Η101Θ19", "Η101Θ20");
     private static final int REQUEST_CAMERA_PERMISSION = 1;
     private boolean isTorchOn = false;
     private static final double BUILDING_LATITUDE = 38.21799;
@@ -91,7 +91,7 @@ public class QrCodeFragment extends Fragment {
             if (isInBuilding()) {
                 initializeScanner();
             } else {
-                Toast.makeText(getContext(), "Δεν είστε εντός του κτιρίου.", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getContext(), "Δεν βρίσκεστε εντός του κτιρίου. Παρακαλούμε μετακινηθείτε στη σωστή τοποθεσία.", Toast.LENGTH_SHORT).show();
             }
         } else {
             requestPermissions();
@@ -630,8 +630,7 @@ public class QrCodeFragment extends Fragment {
             if (isInBuilding()) {
                 barcodeView.resume();
             } else {
-                String toastMessage = "Δεν βρίσκεστε εντός του κτιρίου. Παρακαλούμε μετακινηθείτε στη σωστή τοποθεσία.";
-                Toast.makeText(getActivity(), toastMessage, Toast.LENGTH_SHORT).show();
+
             }
         }
     }

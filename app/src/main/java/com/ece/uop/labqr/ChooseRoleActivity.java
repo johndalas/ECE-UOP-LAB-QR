@@ -172,7 +172,7 @@ public class ChooseRoleActivity extends AppCompatActivity {
             });
 
         } else {
-            Toast.makeText(this, "Παρακαλώ συνδεθείτε με τον ακαδημαϊκό σας λογαριασμό.", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Παρακαλώ συνδεθείτε με τον ακαδημαϊκό σας λογαριασμό. Η επιλογή καθηγητή είναι μόνο για καθηγητές.", Toast.LENGTH_SHORT).show();
             mGoogleSignInClient.signOut();
 
             SharedPreferences prefs = getSharedPreferences(PREFS_NAME, MODE_PRIVATE);
