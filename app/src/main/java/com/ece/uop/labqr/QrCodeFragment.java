@@ -91,7 +91,7 @@ public class QrCodeFragment extends Fragment {
             if (isInBuilding()) {
                 initializeScanner();
             } else {
-                Toast.makeText(getContext(), "Δεν βρίσκεστε εντός του κτιρίου. Παρακαλούμε μετακινηθείτε στη σωστή τοποθεσία.", Toast.LENGTH_SHORT).show();
+
             }
         } else {
             requestPermissions();
@@ -630,7 +630,7 @@ public class QrCodeFragment extends Fragment {
             if (isInBuilding()) {
                 barcodeView.resume();
             } else {
-
+                Toast.makeText(getContext(), "Δεν βρίσκεστε εντός του κτιρίου. Παρακαλούμε μετακινηθείτε στη σωστή τοποθεσία.", Toast.LENGTH_SHORT).show();
             }
         }
     }

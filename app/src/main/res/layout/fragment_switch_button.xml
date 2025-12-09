@@ -18,13 +18,12 @@
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.255">
-    </Spinner>
+        app:layout_constraintVertical_bias="0.31"></Spinner>
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="331dp"
-        android:layout_height="58dp"
+        android:layout_width="338dp"
+        android:layout_height="114dp"
         android:gravity="center"
         android:text="Επιλέξτε μάθημα και ενεργοποιήστε το διακόπτη ώστε οι φοιτητές να δηλώσουν την παρουσία τους."
         android:textColor="#7F7F7F"

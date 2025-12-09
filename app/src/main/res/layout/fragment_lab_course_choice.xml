@@ -23,8 +23,8 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="280dp"
-        android:layout_height="44dp"
+        android:layout_width="341dp"
+        android:layout_height="69dp"
         android:gravity="center"
         android:text="Επιλέξτε μάθημα για δήλωση παρουσίας εργαστηρίου"
         android:textColor="#7F7F7F"
